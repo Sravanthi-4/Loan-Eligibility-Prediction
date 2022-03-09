@@ -9,21 +9,11 @@ Steps:
 - Data Visualization
 - Model Selection
 - Train the model
-- Prediction of the model
+- Prediction of the model.  
+
 Firstly, the necessary libraries are imported. The required data for the project is downloaded from Kaggle and is also provided in this repository. To understand the data, the describe method is used to show the important information about the features. The unique values for each column and other information is observed. 
-To understand more about the data exploratory data analysis is performed.
+To understand more about the data exploratory data analysis is performed. The values that each feature contains and the relation with the output is understood.  
+To clean the data so that it is reliable, first the missing values in numeric features are filled with mean values, next the categorical features are encoded and then a similar procedure is used to fill missing values. The outliers are identified and those that are exceeding the lower and upper bounds are replaced with extreme values. Now all the features have numeric values and are clean.  
+Data visualization tools are used to know how output relies on different features. Correlation function is also used to see if any two features are dependent on each other as well to recognize their relation with the output. The cleaned data is extracted to train and predict the model.  
 
-
-
-The steps followed are:
-- Gathering the data
- -The dataset(for both training and testing of model) is downloaded from Kaggle and is also provided in this repository.
-- Exploratory Data Analysis
-- Data Visualization
-- Try different machine learning models
- -Logistic Regression, Support vector machine
--Traing the ML Model
-- Predicting the eligibility
-
-For cleaning the data so that it is reliable, firstly import the required packages. Then keenly understand the data and the relation between different features of the data. Then clean the data by filling the null values, encoding the categorical data, dealing with outliers. And once the data is clean different visualizations are observed to see on what features the output relies. 
 As this is a binary classification problem support vector machine and linear regression models are used and performance metrices like accuracy score, confusion matrix, recall, precision, and roc curve are used to evaluate the model.
