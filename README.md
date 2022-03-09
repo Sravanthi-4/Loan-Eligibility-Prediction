@@ -1,7 +1,7 @@
 # Loan-Eligibility-Prediction
 
 Loans are one of the most important sources of income for a bank. An intense procedure of verification and validation should be done before granting the loan to a candidate as the main profit comes directly from the loan’s interest.
-Aim: to create a predictive model to predict the eligibility of an applicant for the loan.
+Aim: To create a predictive model to predict the eligibility of an applicant for a loan.
 Steps: 
 - Observe and understand the data
 - Exploratory data analysis
@@ -10,6 +10,10 @@ Steps:
 - Model Selection
 - Train the model
 - Prediction of the model
+Firstly, the necessary libraries are imported. The required data for the project is downloaded from Kaggle and is also provided in this repository. To understand the data, the describe method is used to show the important information about the features. The unique values for each column and other information is observed. 
+To understand more about the data exploratory data analysis is performed.
+
+
 
 The steps followed are:
 - Gathering the data
