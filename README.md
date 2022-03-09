@@ -13,7 +13,7 @@ Steps:
 
 The steps followed are:
 - Gathering the data
- -The dataset(for both training and testing of model) is downloaded from Kaggle and are also provided in this repository.
+ -The dataset(for both training and testing of model) is downloaded from Kaggle and is also provided in this repository.
 - Exploratory Data Analysis
 - Data Visualization
 - Try different machine learning models
