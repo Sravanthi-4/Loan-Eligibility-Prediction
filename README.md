@@ -1,17 +1,17 @@
 # Loan-Eligibility-Prediction
 
-Loans are one of the most important sources of income for a bank. An intense procedure of verification and validation should be done before granting the loan to a candidate as the main profit comes directly from the loan’s interest.  
+Loans are one of the most important sources of income for a bank. An intense procedure of verification and validation should be done before granting the loan to a candidate as the main profit comes directly from the loan’s interest. 
 
-Aim: To create a predictive model to predict the eligibility of an applicant for a loan.  
+The aim of the projeci is to create a predictive model to predict the eligibility of an applicant for a loan.  
 
 Steps: 
 - Observe and understand the data
+- Data preprocessing
 - Exploratory data analysis
-- Data preprocessing - missing values, encoding, outliers handling
-- Data Visualization
-- Model Selection
-- Train the model
-- Prediction of the model.  
+- Feature Engineering
+- Model Building
+- Model Testing
+- Make predictions  
 
 Firstly, the necessary libraries are imported. The required data for the project is downloaded from Kaggle and is also provided in this repository. To understand the data, the describe method is used to show the important information about the features. The unique values for each column and other information is observed. 
 To understand more about the data, exploratory data analysis is performed. The values that each feature contains and the relation with the output is understood.  
